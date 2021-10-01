@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# React dashboard API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://user-images.githubusercontent.com/77676047/135660406-626473db-c67b-4fa0-8dc1-74c3ff742c4f.png" width =50% height = 50%>
+<img src="https://user-images.githubusercontent.com/77676047/135660551-e6db7895-a8e9-4a0c-917e-7a3e52343d44.png" width =50% height = 50%>
+<img src="https://user-images.githubusercontent.com/77676047/135660657-c0f1c736-d1e2-4aa5-a6bd-fb30aaebf1a8.png" width =50% height = 50%>
 
-## Available Scripts
+### About
+  Dashboard ReactJS app created with Class components, Fetch API, React Bootstrap, Bootstrap 5.1 and react-router-dom 
 
-In the project directory, you can run:
+### Functionalities
 
-### `yarn start`
+- Fetch API used to get data
+- Navigate between three pages, Resumo(overview),Consultas(appointments) and Faturamento(income)
+- Services folder contains the base.js file which exports the default API URL
+  <img src="https://user-images.githubusercontent.com/77676047/135676406-ad75fc8e-56be-4e9e-96b8-3ef2c7e4c512.png" >
+- Each service files exports a function which uses the default url + it's endpoint to return JSON data
+  <img src="https://user-images.githubusercontent.com/77676047/135676889-45c4e655-9319-48b4-aaed-710c9804e00f.png" >
+- Each components imports it's service and sets it's state with the data
+  <img src="https://user-images.githubusercontent.com/77676047/135677284-a21cc6be-c3fe-41ef-9cac-a03da5efeb6b.png" >
+  
+### Learnings
+- Fetch API
+- Class components
+- React-bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- NodeJs
+- Yarn ``npm install --global yarn``
+- React ``npm install -g create-react-app ``
+- Bootstrap ``npm install bootstrap``
+- React Bootstrap ``npm install react-bootstrap@next``
+- React router DOM ``npm install --save react-router-dom``
 
-### `yarn test`
+## Installing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone this repository
+- `` git clone https://github.com/celioFagundes/React-Dashboard-API.git``
+- `` cd React-Dashboard-API.git``
+- `` npm install ``
